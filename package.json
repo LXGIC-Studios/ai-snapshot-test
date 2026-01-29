@@ -1,14 +1,45 @@
 {
   "name": "ai-snapshot-test",
   "version": "1.0.0",
-  "description": "Generate Jest snapshot tests for React components using AI",
+  "description": "AI-powered snapshot test generator - component tests with GPT",
   "main": "dist/index.js",
-  "bin": { "ai-snapshot-test": "dist/cli.js" },
-  "scripts": { "build": "tsc" },
-  "keywords": ["jest", "snapshot", "testing", "react", "ai", "cli"],
+  "bin": {
+    "ai-snapshot-test": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "ai",
+    "openai",
+    "gpt",
+    "snapshot",
+    "testing",
+    "jest",
+    "vitest",
+    "react",
+    "developer-tools",
+    "cli",
+    "automation",
+    "typescript",
+    "nodejs",
+    "components",
+    "ui"
+  ],
   "license": "MIT",
-  "dependencies": { "commander": "^12.1.0", "openai": "^4.73.0", "ora": "^5.4.1", "glob": "^10.3.0" },
-  "devDependencies": { "typescript": "^5.6.0", "@types/node": "^22.0.0" },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "openai": "^4.73.0",
+    "ora": "^5.4.1",
+    "glob": "^10.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  },
   "author": "LXGIC Studios",
-  "repository": { "type": "git", "url": "https://github.com/lxgicstudios/ai-snapshot-test" }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/ai-snapshot-test"
+  }
 }
